@@ -1,4 +1,5 @@
-import { TiposBasicos } from './typescript/TiposBasicos';
+import { ObjetosLiterales } from './typescript/ObjetosLiterales';
+// import { TiposBasicos } from './typescript/TiposBasicos';
 
 export const App = () => {
   return (
@@ -7,7 +8,9 @@ export const App = () => {
 
       <hr />
 
-      <TiposBasicos/>
+      <ObjetosLiterales/>
+
+      {/* <TiposBasicos/> */}
     </div>
   )
 }
