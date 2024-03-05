@@ -1,4 +1,5 @@
-import { ObjetosLiterales } from './typescript/ObjetosLiterales';
+import { Funciones } from './typescript/Funciones';
+// import { ObjetosLiterales } from './typescript/ObjetosLiterales';
 // import { TiposBasicos } from './typescript/TiposBasicos';
 
 export const App = () => {
@@ -8,7 +9,9 @@ export const App = () => {
 
       <hr />
 
-      <ObjetosLiterales/>
+      <Funciones/>
+
+      {/* <ObjetosLiterales/> */}
 
       {/* <TiposBasicos/> */}
     </div>
