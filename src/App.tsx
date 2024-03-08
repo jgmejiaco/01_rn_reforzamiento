@@ -1,8 +1,9 @@
 // import { Contador } from './components/Contador';
-import { ContadorConHook } from './components/ContadorConHook';
+// import { ContadorConHook } from './components/ContadorConHook';
 // import { Funciones } from './typescript/Funciones';
 // import { ObjetosLiterales } from './typescript/ObjetosLiterales';
 // import { TiposBasicos } from './typescript/TiposBasicos';
+import { Login } from './components/Login';
 
 
 export const App = () => {
@@ -12,7 +13,9 @@ export const App = () => {
 
       <hr />
 
-      <ContadorConHook/>
+      <Login/>
+
+      {/* <ContadorConHook/> */}
 
       {/* <Contador/> */}
 
